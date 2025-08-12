@@ -4,15 +4,6 @@ const users = [
   { id: 1, email: 'faker@test.com', password: 'faker@test.com' }
 ];
 
-// Mock books database
-const books = [
-  { id: 1, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: 1925 },
-  { id: 2, title: 'To Kill a Mockingbird', author: 'Harper Lee', year: 1960 },
-  { id: 3, title: '1984', author: 'George Orwell', year: 1949 },
-  { id: 4, title: 'Pride and Prejudice', author: 'Jane Austen', year: 1813 },
-  { id: 5, title: 'The Hobbit', author: 'J.R.R. Tolkien', year: 1937 },
-];
-
 
 export const fakeAuth = {
   login(email, password) {

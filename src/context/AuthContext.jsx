@@ -15,7 +15,6 @@ export function AuthProvider({ children }) {
 
   const logout = () => {
     setUser(null);
-    // navigate("/signin");
     navigate("/signin");
   };
 
